@@ -1,13 +1,11 @@
-# Keras-ACGAN-CIFAR10
-Code Modified from https://github.com/lukedeo/keras-acgan,  
-This is CIFAR10 version. Some interesting tricks refers to Soumith Chintala ganhacks(https://github.com/soumith/ganhacks).   
-I directly use the Minibatch Layer Code from:  
-https://github.com/forcecore/Keras-GAN-Animeface-Character  
-Thanks for the great work!  
-Any suggestion is welcomed!  
-This is one of generated images after 50 epochs:  
-<div align=center><img width="380" height="380" src="https://github.com/King-Of-Knights/Keras-ACGAN-CIFAR10/blob/master/plot_epoch_050_generated.png"/></div>
-This is one of generated images after 200 epochs:  
-<div align=center><img width="380" height="380" src="https://github.com/King-Of-Knights/Keras-ACGAN-CIFAR10/blob/master/plot_epoch_220_generated.png"/></div>
-This is Discriminator Classification Result for Cifar-10 test dataset after 200 epochs(Confusion Matrix, Accurancy: 71.89%)  
-<div align=center><img width="775" height="630" src="https://github.com/King-Of-Knights/Keras-ACGAN-CIFAR10/blob/master/Confusion_Matrix.png"/></div> 
+# ACGAN on AWS
+
+For a description of this project, please see the blog post - https://medium.com/unit8-machine-learning-publication/how-to-run-your-ml-in-the-cloud-1d3f71ee029f
+
+## Directories
+
+* train_on_aws - python notebook + Docker + ACGAN training functions designed to run on AWS SageMaker backed by GPU
+* read_model - python notebook to show how to read results obtained in AWS 
+
+
+
